@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>students information</title>
+</head>
+<body>
+    <nav>
+        <h2>ASAC</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+    <main>
+        <form>
+            <label for="email">Student Email</label>
+            <input type="email" id="email">
+            <br>
+            <label for="tel">Student Mobile number</label>
+            <input type="tel" id="tel">
+            <br>
+            <label for="tuition">Tuition</label>
+            <select name="tuition" id="tuition">
+                <option value="100">100</option>
+                <option value="500">500</option>
+                <option value="1000">1000</option>
+            </select>
+            <br>
+            <input type="submit" id="submit">
+        </form>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                        <th>Age</th>
+                        <th>Tuition</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; All Rights reserved ASAC 2021</p>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
